@@ -3,6 +3,7 @@ import os
 import requests
 import datetime
 import reports
+from emails import generate_email,send_email
 def pdf_body(path):
   pdf_content = []
   for files in os.listdir(path):
