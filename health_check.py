@@ -3,7 +3,7 @@ import os
 import shutil
 import psutil
 import socket
-from emails import generate_email,send_email
+from emails import generate_email, send_email
 
 def check_cpu_usage():
     """Verifies that there's enough unused CPU"""
